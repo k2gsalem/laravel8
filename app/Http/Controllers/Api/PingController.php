@@ -13,7 +13,7 @@ class PingController extends Controller
             'status' => 'ok',
             'timestamp' => Carbon::now(),
             'host' => request()->ip(),
-            'branch'=>'deveope'
+            'branch'=>'Develope'
         ]);
     }
 }
